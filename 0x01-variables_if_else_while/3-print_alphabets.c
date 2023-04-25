@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: 'ptint alphabete lowercasse and uppercase'
- * Return: always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -12,10 +12,12 @@ int main(void)
 	while (n <= 122)
 	{
 		putchar(n);
+		n++;
 	}
-	while (n <= 98)
+	while (m <= 90)
 	{
-		putchar(n);
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
